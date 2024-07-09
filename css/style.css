@@ -229,6 +229,7 @@ iframe {
   font-weight: 700;
   text-align: left;
   text-decoration-line: underline;
+  cursor: pointer;
  
 }
 .target-box-1 {
