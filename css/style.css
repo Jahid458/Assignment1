@@ -49,6 +49,7 @@
   font-weight: 400;
   text-align: center;
   margin-top: 24px;
+  opacity: 0.7;
 }
 .hero-btn {
   padding: 21px 24px;
@@ -60,6 +61,7 @@
   background: rgb(13, 19, 33);
   border-radius: 8px;
   margin-top: 32px;
+  cursor: pointer;
 }
 /* Shared Section */
 .text-center {
@@ -79,6 +81,9 @@
   padding: 40px 97px 0px 97px;
   margin: 0 auto;
 }
+.web-development-content p {
+  opacity: 0.7;
+}
 
 .web-title {
   color: rgb(13, 19, 33);
@@ -95,9 +100,8 @@
 }
 
 /* Coding content section */
-.coding-container{
-  margin:  0 auto;
-
+.coding-container {
+  margin: 0 auto;
 }
 
 .coding-content {
@@ -109,7 +113,11 @@
   gap: 100px;
   padding: 48px;
   border-radius: 16px;
-  background: linear-gradient( 90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
   margin-top: 32px;
 }
 
@@ -127,6 +135,7 @@
   font-weight: 400;
   margin-top: 16px;
   margin-bottom: 32px;
+  opacity: 0.7;
 }
 
 .coding-content span {
@@ -134,5 +143,43 @@
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
- 
+  cursor: pointer;
+}
+
+/* Inspiration  section CSS */
+.inspiration {
+  max-width: 1140px;
+  height: 775px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.inspiration h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.inspiration p {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  opacity: 0.7;
+}
+
+.inspiration-video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-top: 40px;
+}
+iframe {
+  width: 1076px;
+  height: 550px;
+  padding: 32px;
+  border-radius: 16px;
 }
