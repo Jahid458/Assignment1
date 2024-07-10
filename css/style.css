@@ -209,7 +209,7 @@ iframe {
   font-weight: 800;
 }
 
-.target-section p{
+.target-section p {
   color: rgb(13, 19, 33);
   font-family: "Azeret Mono";
   font-size: 16px;
@@ -222,7 +222,7 @@ iframe {
   padding: 40px;
   border-radius: 16px;
 }
-.span-target{
+.span-target {
   color: rgb(13, 19, 33);
   font-family: "Azeret Mono";
   font-size: 16px;
@@ -230,7 +230,6 @@ iframe {
   text-align: left;
   text-decoration-line: underline;
   cursor: pointer;
- 
 }
 .target-box-1 {
   background-color: rgba(255, 76, 30, 0.05);
@@ -240,4 +239,73 @@ iframe {
 }
 .target-box-3 {
   background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* Support section CSS */
+
+.support {
+    max-width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 14px;
+    background-image: url("../images/handshake.jpg");
+    padding: 64px 5px 64px 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.support-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.support h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+
+.support p {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-btn{
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
 }
