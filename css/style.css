@@ -299,6 +299,14 @@ input {
     font-size: 16px;
     font-weight: 400;
 }
+.support-input-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  gap: 32px;
+}
 
 .support-btn{
     padding: 17px 20px 17px 20px;
